@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate
+        android:fromXDelta="0%"
+        android:toXDelta="100%"
+        android:duration="1500"
+        android:fillAfter="true"/>
+
+    <translate
+        android:startOffset="1500"
+        android:fromXDelta="0%"
+        android:toXDelta="-200%"
+        android:duration="1500"
+        android:fillAfter="true"/>
+
+    <translate
+        android:startOffset="3000"
+        android:fromXDelta="0%"
+        android:toXDelta="100%"
+        android:duration="1500"
+        android:fillAfter="true"/>
+
+
+</set>
+
+<!-- 위치 0%는 원래 위치 -->
+<!-- repeatCount가 -1일 경우 무한 반복 -->
+<!-- fillAfter가 true일 경우 애니메이션이 끝난 후 원래 위치로 돌아오지 않음-->

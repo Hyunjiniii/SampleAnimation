@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <scale
+        android:duration="1500"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="2.0"
+        android:toYScale="2.0" />
+
+    <scale
+        android:duration="1500"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="1500"
+        android:toXScale="0.5"
+        android:toYScale="0.5" />
+
+</set>
+
+    <!-- startOffset : 애니메이션 시작 시간 -->
+    <!-- duration : 애니메이션 재생 시간 -->
+    <!-- pivot : 시작 위치 -->
+    <!-- Scale 값은 비율로 결정 -->
